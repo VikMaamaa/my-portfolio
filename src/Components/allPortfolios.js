@@ -5,7 +5,7 @@ import port3 from '../img/projects/marketplace.png';
 import port4 from '../img/projects/cocktails.png';
 import port5 from '../img/projects/Foodmenu.png';
 import port7 from '../img/projects/ColorGenerator.png';
-import port6 from '../img/portImages/port5.jpg';
+// import port6 from '../img/portImages/port5.jpg';
 const portfolios = [{
         id: 1,
         category: 'Node Js',
