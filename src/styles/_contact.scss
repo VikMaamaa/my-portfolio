@@ -1,0 +1,93 @@
+.ContactItem {
+    width: 100%;
+    &:not(:last-child) {
+        margin-bottom: 1rem;
+    }
+    .contact {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap; // justify-content: space-between;
+        // height: 10rem;
+        background-color: #191D2B;
+        padding: 3rem 0;
+        .right-items {
+            margin-left: 2rem;
+        }
+        img {
+            padding: 1rem;
+            border: 1px solid #2e344e;
+            margin-left: 2rem;
+            width: 16%;
+            @media screen and (max-width: 450px) {
+                margin-left: 1.5rem;
+            }
+        }
+        .right-items {
+            h6 {
+                font-size: 1.4rem;
+                font-weight: 500;
+            }
+            p {
+                margin-right: 5%;
+                // background-color: red;
+                @media screen and (max-width: 450px) {
+                    font-size: 1rem;
+                }
+            }
+        }
+    }
+}
+
+.ContactPage {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-bottom: 6rem;
+    @media screen and (max-width: 1270px) {
+        grid-template-columns: repeat(1, 1fr);
+        .map-sect {
+            height: 50vh;
+            width: 100%;
+            margin-bottom: 1rem;
+        }
+    }
+    ;
+    .contact-sect {
+        width: 100%;
+    }
+    margin: 5rem 10rem;
+    @media screen and (max-width: 1100px) {
+        margin: 2rem 10rem;
+    }
+    @media screen and (max-width: 1400px) {
+        margin: 3rem 10rem;
+    }
+    @media screen and (max-width: 1400px) {
+        margin: 3rem 10rem;
+    }
+    @media screen and (max-width: 710px) {
+        margin: 2rem 3rem;
+    }
+    @media screen and (max-width: 450px) {
+        margin: 2rem 2rem;
+    }
+}
+
+.map-sect {
+    width: 97%;
+    padding: 1rem;
+    background-color: #191D2B;
+    iframe {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.contact-sect {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.title {
+    margin-bottom: 5rem;
+}

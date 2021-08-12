@@ -1,0 +1,68 @@
+.HomePage {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+}
+
+;
+.hero-text {
+    color: white;
+    text-align: center;
+    font-size: 3.6rem;
+    span {
+        color: #037FFF;
+    }
+}
+
+.title,
+.b-title,
+.a-title {
+    margin: 5rem 15rem;
+    @media screen and (max-width: 1100px) {
+        margin: 2rem 10rem;
+    }
+    @media screen and (max-width: 1400px) {
+        margin: 3rem 10rem;
+    }
+    @media screen and (max-width: 1400px) {
+        margin: 3rem 10rem;
+    }
+    @media screen and (max-width: 710px) {
+        margin: 2rem 3rem;
+    }
+}
+
+// .e-title {
+//     margin-bottom: 0;
+// }
+.h-sub-text {
+    text-align: center;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem 0;
+    .icon-holder {
+        margin-right: 1rem;
+        // border: 1px solid red;
+        .icon {
+            font-size: 2rem;
+            color: #a4acc4;
+            transition: all .4s ease-in-out;
+            // padding: 1rem;
+        }
+        .fb:hover {
+            color: blue;
+        }
+        .gh:hover {
+            color: rgba(212, 45, 212, 0.788);
+        }
+        .yt:hover {
+            color: #037FFF;
+        }
+    }
+}
