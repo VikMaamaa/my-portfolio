@@ -1,6 +1,6 @@
 /*eslint-disable*/
 import React from 'react';
-import about from '../img/dancer.png';
+import about from '../img/my.svg';
 
 function ImageSection() {
     return (
@@ -11,9 +11,9 @@ function ImageSection() {
             <div class="pop-container">
                 <div class="pop-box">
                     <div class="pop-circle">
-                        {/* <img src={about} alt="" /> */}
+                        <img src={about} alt="" />
                     </div>
-                    {/* <img src={about} alt="" /> */}
+                    <img src={about} alt="" />
                 </div>
             </div>
             <div className="about-info">

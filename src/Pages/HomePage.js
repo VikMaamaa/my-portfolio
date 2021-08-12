@@ -4,7 +4,7 @@ import {faFacebook} from '@fortawesome/free-brands-svg-icons';
 import {faGithub} from '@fortawesome/free-brands-svg-icons';
 import {faYoutube, faYoutubeSquare, faTwitter,faLinkedin} from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {Link} from 'react-router-dom'
+// import {NavLink} from 'react-router-dom'
 
 
 function HomePage() {
@@ -21,18 +21,18 @@ function HomePage() {
             </p>
             
             <div className="icons">
-                <Link className="icon-holder">
+                <a className="icon-holder" href="https://www.facebook.com/vik.maamaa">
                 <FontAwesomeIcon icon={faFacebook} className="icon fb" />
-                </Link>
-                <Link className="icon-holder">
+                </a>
+                <a className="icon-holder" href="https://github.com/VikMaamaa">
                 <FontAwesomeIcon icon={faGithub} className="icon gh" />
-                </Link>
-                <Link className="icon-holder">
+                </a>
+                <a className="icon-holder" href="https://twitter.com/MaamaaVictor?s=08">
                 <FontAwesomeIcon icon={faTwitter} className="icon yt" />
-                </Link>
-                <Link className="icon-holder">
+                </a>
+                <a className="icon-holder" href="https://www.linkedin.com/in/maamaa-victor-aa1936209">
                 <FontAwesomeIcon icon={faLinkedin} className="icon yt" />
-                </Link>
+                </a>
             </div>
         </header>
     </div>)
