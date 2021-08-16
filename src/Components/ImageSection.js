@@ -41,7 +41,7 @@ function ImageSection() {
                         <p>: 5 Bank Road Bori Rivers State</p>
                     </div>
                 </div>
-                <button className="btn"> <a className="down" href="../../public/maamaa-victor-cv.pdf" download>Download CV  <i class="fas fa-download"></i> </a> </button>
+                <button className="btn"> <a className="down" href="/maamaa-victor-cv.pdf" download>Download CV  <i class="fas fa-download"></i> </a> </button>
             </div>
         </div>
     )
