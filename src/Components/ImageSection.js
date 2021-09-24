@@ -5,9 +5,7 @@ import about from '../img/my.svg';
 function ImageSection() {
     return (
         <div className="ImageSection">
-            {/* <div className="img">
-                <img src={about} alt=""/>
-            </div> */}
+            
             <div class="pop-container">
                 <div class="pop-box">
                     <div class="pop-circle">
@@ -24,7 +22,7 @@ function ImageSection() {
                 <p>At my free time i give Tech tips, play mind and strategy games, read Mangas and watch Animes. </p>
                 <div className="about-details">
                     <div className="left-section">
-                        {/* <p>Full Name</p> */}
+                        
                         <p>Age</p>
                         <p>Nationality</p>
                         <p>Languages</p>
@@ -33,7 +31,7 @@ function ImageSection() {
                        
                     </div>
                     <div className="right-section">
-                        {/* <p>: Maamaa Victor</p> */}
+                        
                         <p>: 21</p>
                         <p>: Nigeria</p>
                         <p>: English,Khana</p>

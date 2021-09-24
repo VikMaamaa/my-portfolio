@@ -46,6 +46,7 @@
 <script>
     const open = document.getElementById('open');
     const close = document.getElementById('close');
+    const navl = document.querySelectorAll('.navI')
     const container = document.querySelector('.container');
     const close1 = document.getElementById('close1');
     open.addEventListener('click', () => container.classList.add('show-nav'))
@@ -53,6 +54,9 @@
     close.addEventListener('click', () => container.classList.remove('show-nav'));
 
     close1.addEventListener('click', () => container.classList.remove('show-nav'));
+    navl.forEach(element => {
+        element.addEventListener('click', () => container.classList.remove('show-nav'));
+    });
 </script>
 
 </html>

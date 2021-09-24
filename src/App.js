@@ -97,31 +97,31 @@ function App() {
     </div>
     <nav >
         <ul>
-            <li> <NavLink to="/" className="navl" exact activeClassName="active">
+            <li className="navI"> <NavLink to="/" className="navl" exact activeClassName="active">
             <i class="fas fa-home"></i>         Home
                         </NavLink>
             </li>
-            <li> <NavLink to="/about" className="navl" exact activeClassName="active">
+            <li className="navI"> <NavLink to="/about" className="navl" exact activeClassName="active">
             <i class="fas fa-user-alt"></i>          About
                         </NavLink>
             </li>
-            <li>
+            <li className="navI">
             <NavLink to="/projects"className="navl" exact activeClassName="active">
             <i class="fas fa-briefcase"></i>         Projects
                         </NavLink>
             </li>
-            <li>
+            <li className="navI">
             <NavLink to="/mini-projects" className="navl" exact activeClassName="active">
                 
             <i class="fas fa-box"></i>           Mini-Projects
                         </NavLink>
             </li>
-            <li>
+            <li className="navI">
             <NavLink to="/blogs" className="navl" exact activeClassName="active">
             <i class="fas fa-blog"></i>      Blogs
                         </NavLink>
             </li>
-            <li>
+            <li className="navI">
             <NavLink to="/contact" className="navl" exact activeClassName="active">
             <i class="fas fa-phone"></i>
                             Contact

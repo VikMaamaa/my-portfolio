@@ -1,17 +1,7 @@
 .ImageSection {
     display: flex;
     margin-top: 4rem;
-    // height: 70vh;
     margin-bottom: 4rem;
-    // .img {
-    //     width: 100%;
-    //     height: 60vh;
-    //     img {
-    //         width: 100%;
-    //         object-fit: cover;
-    //         height: 100%;
-    //     }
-    // }
     .about-info {
         margin-left: 2rem;
         h4 {
@@ -116,7 +106,6 @@
     align-items: center;
     margin: 4rem 0rem;
     flex-wrap: wrap;
-    // background-color: red;
     width: 100%;
     @media screen and (max-width: 1270px) {
         margin: 2rem 0rem;

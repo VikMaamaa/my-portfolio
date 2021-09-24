@@ -22,7 +22,11 @@ function MenuItem({menuItem}) {
                                 <div class="details">
                                     <h3>{item.title}</h3>
                                     
-                                    
+                                    <p>built with 
+                                        {item.built.map((i)=>{
+                                        return ` ${i}, `
+                                    })}
+                                    </p>
                                 <a href={item.link1}><FontAwesomeIcon icon={faGitSquare} className="repository" /> Repository</a>
                                     <a href={item.link2}><FontAwesomeIcon icon={faLinux} className="live" /> Live</a>
                                 </div>

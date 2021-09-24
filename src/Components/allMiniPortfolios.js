@@ -33,7 +33,8 @@ const portfolios = [{
         icon1: 'G',
         icon2: 'Y',
         image: port1,
-        title: 'Animated Navigation'
+        title: 'Animated Navigation',
+        built: ['Html', 'Css', 'JavaScript']
     },
     {
         id: 2,
@@ -43,7 +44,8 @@ const portfolios = [{
         icon1: 'G',
         icon2: 'Y',
         image: port2,
-        title: 'Blurry Loading'
+        title: 'Blurry Loading',
+        built: ['Html', 'Css', 'JavaScript']
     },
     {
         id: 3,
@@ -53,7 +55,8 @@ const portfolios = [{
         icon1: 'G',
         icon2: 'Y',
         image: port3,
-        title: 'Choice Picker'
+        title: 'Choice Picker',
+        built: ['Html', 'Css', 'JavaScript']
     },
     {
         id: 4,
@@ -63,7 +66,8 @@ const portfolios = [{
         icon1: 'G',
         icon2: 'Y',
         image: port4,
-        title: 'Dad Jokes'
+        title: 'Dad Jokes',
+        built: ['Html', 'Css', 'JavaScript']
     },
     {
         id: 5,
@@ -73,7 +77,8 @@ const portfolios = [{
         icon1: 'G',
         icon2: 'Y',
         image: port5,
-        title: 'Drink Water'
+        title: 'Drink Water',
+        built: ['Html', 'Css', 'JavaScript']
     },
     {
         id: 6,
@@ -83,7 +88,8 @@ const portfolios = [{
         icon1: 'G',
         icon2: 'Y',
         image: port6,
-        title: 'Event-KeyCodes'
+        title: 'Event-KeyCodes',
+        built: ['Html', 'Css', 'JavaScript']
     },
     {
         id: 7,
@@ -93,7 +99,8 @@ const portfolios = [{
         icon1: 'G',
         icon2: 'Y',
         image: port7,
-        title: 'Expanding Cards'
+        title: 'Expanding Cards',
+        built: ['Html', 'Css', 'JavaScript']
     },
     {
         id: 8,
@@ -103,7 +110,8 @@ const portfolios = [{
         icon1: 'G',
         icon2: 'Y',
         image: port8,
-        title: 'FAQ Collapse'
+        title: 'FAQ Collapse',
+        built: ['Html', 'Css', 'JavaScript']
     },
     {
         id: 9,
@@ -113,7 +121,8 @@ const portfolios = [{
         icon1: 'G',
         icon2: 'Y',
         image: port9,
-        title: 'Form Wave Animation'
+        title: 'Form Wave Animation',
+        built: ['Html', 'Css', 'JavaScript']
     },
     {
         id: 10,
@@ -123,7 +132,8 @@ const portfolios = [{
         icon1: 'G',
         icon2: 'Y',
         image: port10,
-        title: 'Hidden Search Widget'
+        title: 'Hidden Search Widget',
+        built: ['Html', 'Css', 'JavaScript']
     },
     {
         id: 11,
@@ -133,7 +143,8 @@ const portfolios = [{
         icon1: 'G',
         icon2: 'Y',
         image: port11,
-        title: 'Progress Steps'
+        title: 'Progress Steps',
+        built: ['Html', 'Css', 'JavaScript']
     },
     {
         id: 12,
@@ -143,7 +154,8 @@ const portfolios = [{
         icon1: 'G',
         icon2: 'Y',
         image: port12,
-        title: 'Scroll Animation'
+        title: 'Scroll Animation',
+        built: ['Html', 'Css', 'JavaScript']
     },
     {
         id: 13,
@@ -153,7 +165,8 @@ const portfolios = [{
         icon1: 'G',
         icon2: 'Y',
         image: port13,
-        title: 'Sound Board'
+        title: 'Sound Board',
+        built: ['Html', 'Css', 'JavaScript']
     },
     {
         id: 14,
@@ -163,7 +176,8 @@ const portfolios = [{
         icon1: 'G',
         icon2: 'Y',
         image: port14,
-        title: 'Split Landing Page'
+        title: 'Split Landing Page',
+        built: ['Html', 'Css', 'JavaScript']
     },
     {
         id: 15,
@@ -173,7 +187,8 @@ const portfolios = [{
         icon1: 'G',
         icon2: 'Y',
         image: port15,
-        title: 'Accordion'
+        title: 'Accordion',
+        built: ['Html', 'Css', 'JavaScript', 'React Js']
     },
     {
         id: 16,
@@ -183,7 +198,8 @@ const portfolios = [{
         icon1: 'G',
         icon2: 'Y',
         image: port16,
-        title: 'Cart'
+        title: 'Cart',
+        built: ['Html', 'Css', 'JavaScript', 'React Js']
     },
     {
         id: 17,
@@ -193,7 +209,8 @@ const portfolios = [{
         icon1: 'G',
         icon2: 'Y',
         image: port17,
-        title: 'Text Generator'
+        title: 'Text Generator',
+        built: ['Html', 'Css', 'JavaScript', 'React Js']
     },
     {
         id: 18,
@@ -203,7 +220,8 @@ const portfolios = [{
         icon1: 'G',
         icon2: 'Y',
         image: port18,
-        title: 'Reviews'
+        title: 'Reviews',
+        built: ['Html', 'Css', 'JavaScript', 'React Js']
     },
     {
         id: 19,
@@ -213,7 +231,8 @@ const portfolios = [{
         icon1: 'G',
         icon2: 'Y',
         image: port19,
-        title: 'Stripe Submenu'
+        title: 'Stripe Submenu',
+        built: ['Html', 'Css', 'JavaScript', 'React Js']
     },
     {
         id: 20,
@@ -223,8 +242,10 @@ const portfolios = [{
         icon1: 'G',
         icon2: 'Y',
         image: port20,
-        title: 'Tabs'
+        title: 'Tabs',
+        built: ['Html', 'Css', 'JavaScript', 'React Js']
     }
 ]
 
 export default portfolios;
+// export default portfolios;

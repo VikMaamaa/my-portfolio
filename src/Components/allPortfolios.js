@@ -14,7 +14,8 @@ const portfolios = [{
         icon1: 'G',
         icon2: 'Y',
         image: port1,
-        title: 'E-Commerce Tour Site'
+        title: 'E-Commerce Tour Site',
+        built: ['Html', 'Css', 'JavaScript', 'Express Js', 'Node js', 'Mongo DB']
     }, {
         id: 2,
         category: 'Php',
@@ -23,7 +24,8 @@ const portfolios = [{
         icon1: 'G',
         icon2: 'Y',
         image: port2,
-        title: 'Benton Consult'
+        title: 'Benton Consult',
+        built: ['Html', 'Css', 'JavaScript', 'Php']
     },
     {
         id: 3,
@@ -33,7 +35,8 @@ const portfolios = [{
         icon1: 'G',
         icon2: 'Y',
         image: port3,
-        title: 'Mini MarketPlace'
+        title: 'Mini MarketPlace',
+        built: ['Html', 'Css', 'Php', 'MySQL']
     },
     {
         id: 4,
@@ -43,7 +46,8 @@ const portfolios = [{
         icon1: 'G',
         icon2: 'Y',
         image: port4,
-        title: 'Cocktails Site'
+        title: 'Cocktails Site',
+        built: ['Html', 'Css', 'JavaScript', 'React Js']
     },
     {
         id: 5,
@@ -53,7 +57,8 @@ const portfolios = [{
         icon1: 'G',
         icon2: 'Y',
         image: port5,
-        title: 'Food Menu'
+        title: 'Food Menu',
+        built: ['Html', 'Css', 'JavaScript', 'React Js']
     },
     {
         id: 6,
@@ -63,7 +68,8 @@ const portfolios = [{
         icon1: 'G',
         icon2: 'Y',
         image: port7,
-        title: 'Color Generator'
+        title: 'Color Generator',
+        built: ['Html', 'Css', 'JavaScript', 'React Js']
     },
     // {
     //     id: 7,
